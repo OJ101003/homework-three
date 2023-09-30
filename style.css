@@ -40,11 +40,12 @@ p{
 }
 .numbutton, .calcbutton ,.reset{
     font-size: 30px;
+    border: 5px outset lightsteelblue;
     font-weight: bold;
     color: black;
     text-align: center;
     background-color: white;
     width: 60px;
     height: 60px;
-    margin: 10px 15px;
+    margin: 10px 10px;
 }
