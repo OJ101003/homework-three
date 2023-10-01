@@ -5,26 +5,29 @@
   <body>
     <div class="parent">
       <div class="calculator">
-        <div class="numbers"></div>
+        <div id="numbers">
+          <p></p>
+        </div>
         <div class="buttonarea">
-          <div class="numbutton"><p>7</p></div>
-          <div class="numbutton"><p>8</p></div>
-          <div class="numbutton"><p>9</p></div>
-          <div class="calcbutton"><p>+</p></div>
-          <div class="numbutton"><p>4</p></div>
-          <div class="numbutton"><p>5</p></div>
-          <div class="numbutton"><p>6</p></div>
-          <div class="calcbutton"><p>-</p></div>
-          <div class="numbutton"><p>1</p></div>
-          <div class="numbutton"><p>2</p></div>
-          <div class="numbutton"><p>3</p></div>
-          <div class="calcbutton"><p>X</p></div>
-          <div class="reset"><p>C</p></div>
-          <div class="numbutton"><p>0</p></div>
-          <div class="calcbutton"><p>=</p></div>
-          <div class="calcbutton"><p>/</p></div>
+          <button class="numbutton">7</button>
+          <button class="numbutton">8</button>
+          <button class="numbutton">9</button>
+          <button class="calcbutton">+</button>
+          <button class="numbutton">4</button>
+          <button class="numbutton">5</button>
+          <button class="numbutton">6</button>
+          <button class="calcbutton">-</button>
+          <button class="numbutton">1</button>
+          <button class="numbutton">2</button>
+          <button class="numbutton">3</button>
+          <button class="calcbutton">X</button>
+          <button class="reset" onclick="resetBtn()">C</button>
+          <button class="numbutton">0</button>
+          <button class="equals" onclick="sumBtn()">=</button>
+          <button class="calcbutton">/</button>
         </div>
       </div>
     </div>
+    <script src="calculator.js"></script>
   </body>
 </html>
