@@ -6,12 +6,8 @@ let mathStatus = true;
 let firstNum;
 let secondNum = "";
 let symbol = "";
-// numBtn.addEventListener("click", (event) => {
-//   console.log(evet.currentTarget.textContent);
-// });
 numBtn.forEach((button) => {
   button.addEventListener("click", (event) => {
-    // console.log(event.currentTarget.textContent);
     nums = event.currentTarget.textContent;
     numbersDiv.textContent += nums;
     if (!mathStatus){
