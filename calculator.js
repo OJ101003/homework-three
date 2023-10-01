@@ -55,7 +55,7 @@ const sumBtn = () =>{
             result = first-second;
             break;
         case "/":
-            result = (first/second).toFixed(3)
+            result = Math.round((first/second) * 100) / 100;
             break;
         case "X":
             result = (first*second)
