@@ -41,7 +41,7 @@ const resetBtn = () => {
 };
 
 const sumBtn = () =>{
-    if (!firstNum){
+    if (mathStatus){
         return;
     }
     let first = parseInt(firstNum);
