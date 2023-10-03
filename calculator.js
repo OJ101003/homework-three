@@ -1,5 +1,5 @@
 const numbersDiv = document.querySelector("#numbers p");
-const numButtons = document.querySelectorAll(".numbutton");
+const numButtons = document.querySelectorAll("button:not(.calcbutton,.reset,.equals)");
 const calcButtons = document.querySelectorAll(".calcbutton");
 
 let isFirstNumDone = true;

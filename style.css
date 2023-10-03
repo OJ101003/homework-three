@@ -40,7 +40,7 @@ p{
     margin: 0;
     padding: 13px 0;
 }
-.numbutton, .calcbutton ,.reset, .equals{
+button{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -49,7 +49,7 @@ p{
     margin: 10px 10px;
 }
 
-.numbutton{
+button:not(.calcbutton, .reset, .equals){
   border: 5px outset lightsteelblue;
   background-color: gainsboro;
   color: black;
